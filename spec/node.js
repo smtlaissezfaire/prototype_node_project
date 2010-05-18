@@ -6,7 +6,6 @@ require.paths.unshift("lib");
 
 require('jspec');
 require('unit/spec.helper');
-require('yourlib');
 require("./vendor/jspec_dot_reporter/jspec_dot_reporter");
 
 JSpec
