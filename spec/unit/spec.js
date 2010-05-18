@@ -1,8 +1,5 @@
-
-describe 'YourLib'
-  describe '.someMethod()'
-    it 'should do something'
-      true.should.be true
-    end
-  end
-end
+describe('jspec', function() {
+  it("should have true as true", function() {
+    true.should.equal(true);
+  });
+});
